@@ -6,7 +6,7 @@
 
 A modern and responsive React application that lets developers explore technologies and create their own personalized development stack.
 
-[🌐 Live Demo](https://dev-stack-builder-website-seven.vercel.app/)
+[🌐 Live Demo](https://dev-stack-builder-website-six.vercel.app/)
 
 </div>
 
@@ -55,18 +55,24 @@ The application is designed to provide a smooth experience across desktop, table
 ```text
 Dev-Stack-Builder-Website/
 ├── public/
+│   └── favicon.svg
 ├── src/
-├── .gitignore
-├── eslint.config.js
+│   ├── assets/              # Images (logo, banner illustration)
+│   ├── components/          # Navbar, Hero, TechnologySection, StackSidebar, etc.
+│   ├── data/
+│   │   └── technologies.json  # Technology catalog
+│   ├── types/
+│   │   └── technology.ts    # Shared TypeScript types
+│   ├── utils/
+│   │   └── categoryColors.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
 ├── index.html
 ├── package.json
-├── package-lock.json
-├── postcss.config.js
+├── vite.config.ts
 ├── tailwind.config.js
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-└── vite.config.ts
+└── README.md
 ```
 
 ---

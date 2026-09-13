@@ -11,8 +11,9 @@ export default function Hero() {
             <span className="text-brand-gradient">Development Stack</span>
           </h1>
           <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-slate-500 lg:mx-0">
-            Browse curated technologies, compare them at a glance, and put together the
-            exact stack your next project deserves.
+            Explore frontend, backend, database, and tooling options,
+            compare them side by side, and put together the stack that fits your
+            next project.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start">
             <a
@@ -34,7 +35,7 @@ export default function Hero() {
           <img
             src={bannerStack}
             alt="Illustration of a layered development stack"
-            className="w-56 sm:w-72 lg:w-80"
+            className="w-64 sm:w-96 lg:w-[440px]"
           />
         </div>
       </div>

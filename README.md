@@ -22,15 +22,17 @@ Users can browse available technologies, add them to their stack, and build a pe
 
 ## 🛠️ Technologies Used
 
-| Technology              | Purpose                                              |
-| ----------------------- | ---------------------------------------------------- |
-| ⚛️ **React 18**         | Building the user interface with reusable components |
-| 🔷 **TypeScript**       | Adding type safety to the application                |
-| ⚡ **Vite**              | Development server and build tool                    |
-| 🎨 **Tailwind CSS**     | Styling and responsive UI design                     |
-| 🧩 **React Toastify**   | Showing toast notifications                          |
-| 🟨 **JavaScript / JSX** | React application logic and UI structure             |
-| 🌐 **HTML & CSS**       | Web structure and styling                            |
+| Technology | Purpose |
+|---|---|
+| ![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black) | UI library |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white) | Type safety |
+| ![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite&logoColor=white) | Build tool & dev server |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss&logoColor=white) | Styling |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) | Markup |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) | Styling |
+| **React Toastify** | Toast notifications |
+| **PostCSS + Autoprefixer** | CSS processing |
+| **ESLint** | Code linting |
 
 ---
 

@@ -25,11 +25,13 @@ export default function TechnologyCard({ technology, isAdded, onAdd }: Technolog
       <h3 className="mt-4 text-base font-bold text-slate-900">{name}</h3>
       <p className="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">{description}</p>
 
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
-        <span className={`rounded-full px-2.5 py-1 text-xs font-semibold ${CATEGORY_STYLES[category]}`}>
+      <div className="mt-4 flex flex-nowrap items-center justify-between gap-1.5">
+        <span className={`shrink-0 whitespace-nowrap rounded-full px-2 py-1 text-xs font-semibold ${CATEGORY_STYLES[category]}`}>
           {category}
         </span>
-        <span className={`text-xs font-semibold ${DIFFICULTY_STYLES[difficulty]}`}>{difficulty}</span>
+        <span className={`shrink-0 whitespace-nowrap text-xs font-semibold ${DIFFICULTY_STYLES[difficulty]}`}>
+          {difficulty}
+        </span>
         <StarRating rating={rating} />
       </div>
 
